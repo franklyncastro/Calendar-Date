@@ -73,7 +73,7 @@ function renderEvents() {
                         <div class="actions"> 
                             <button class="bDelete" data-id="${
                               event.id
-                            }">Eliminar</button>
+                            }"><i class="fas fa-trash"></i></button>
                         </div>
                     </div>
                     `;
@@ -103,7 +103,7 @@ function load() {
 // Dark Mode
 
 function darkMode(){
-    document.getElementById("app").classList.toggle("dark-mode")
+    document.getElementById("dark").classList.toggle("dark-mode")
 }
 
     document.getElementById("dark-mode").onclick = () =>{

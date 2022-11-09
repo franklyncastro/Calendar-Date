@@ -6,7 +6,9 @@
 
 body{
     font-family: 'Lora', serif;
+    transition: 1s ease;
 }
+
 
 .dark-mode{
     background-color: #1e272e;
