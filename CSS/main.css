@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Lora', serif;
+}
+
+.dark-mode{
+    background-color: #1e272e;
+    color: #fff;
+}
+
+h1{
+    text-align: center;
+    margin-top: 10px;
+    margin: 30px;
+}
+
+
+.form{
+    background-color: #fff;
+    padding: 20px;
+    width: 370px;
+    margin: 0 auto;
+    border-radius: 9px;
+    
+}
+
+
+button{
+    border: none;
+    background-color: #e32b2b;
+    padding: 5px;
+    width: 90px;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #f61f1f;
+}
+
+.form input{
+    margin: 5px 0;
+    padding: 5px;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+input[type="submit"]{
+    border: none;
+    background-color: #1860a8;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+input[type="submit"]:active{
+    background-color: #1376d9;
+    
+}
+
+input[type="button"]{
+    border: none;
+    background-color: #1860a8;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100px;
+}
+
+#eventsContainer{
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    border-radius: 10px;
+    padding: 10px;
+    width: 700px;
+    margin: 100px auto;
+    gap: 5px;
+   
+}
+
+.event-content{
+    border: solid 1px #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.event-content .days{
+    text-align: center;
+    width: 100px;
+}
+
+.event-content .days .days-number{
+    font-size: 30px;
+    font-weight: bold;
+    display: block;
+}
+
+.event-content .event-name{
+    padding: 10px;
+    width: 200px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.event-content .event-date{
+    padding: 10px;
+    width: 110px;
+}
+
+
+@media screen and (max-width: 700px){  
+    #eventsContainer{
+        width: auto;
+    }
+}
