@@ -16,6 +16,21 @@ body{
     transition: 1s ease;
 }
 
+label{
+    font-family: 'Lora', serif;
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    margin-top: 20px;
+    cursor: pointer;
+
+}
+input[type="checkbox"]{
+    display: none;
+}
+
+
+
 h1{
     text-align: center;
     margin-top: 10px;
@@ -132,3 +147,5 @@ input[type="button"]{
         width: auto;
     }
 }
+
+
