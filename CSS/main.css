@@ -11,6 +11,7 @@ body{
 .dark-mode{
     background-color: #1e272e;
     color: #fff;
+    transition: 1s ease;
 }
 
 h1{
@@ -26,6 +27,7 @@ h1{
     width: 370px;
     margin: 0 auto;
     border-radius: 9px;
+    color: #1860a8;
     
 }
 

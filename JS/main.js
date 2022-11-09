@@ -102,13 +102,10 @@ function load() {
 
 // Dark Mode
 
-    function darkMode(){
-        document.getElementById('dark').classList.toggle("dark-mode")
+function darkMode(){
+    document.getElementById("app").classList.toggle("dark-mode")
 }
 
-    document.getElementById("dark").onclick = () =>{
+    document.getElementById("dark-mode").onclick = () =>{
         darkMode();
     }
-
-    
-
