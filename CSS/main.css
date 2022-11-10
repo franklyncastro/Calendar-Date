@@ -9,7 +9,7 @@ body{
     transition: 1s ease;
 }
 
-
+/* Modo Oscuro Start */
 .dark-mode{
     background-color: #1e272e;
     color: #fff;
@@ -29,6 +29,7 @@ input[type="checkbox"]{
     display: none;
 }
 
+/* Modo oscuro End */
 
 
 h1{
@@ -37,7 +38,7 @@ h1{
     margin: 30px;
 }
 
-
+/* Formulario Start */
 .form{
     background-color: #fff;
     padding: 20px;
@@ -48,21 +49,6 @@ h1{
     
 }
 
-
-button{
-    border: none;
-    background-color: #e32b2b;
-    padding: 5px;
-    width: 90px;
-    color: #fff;
-    border-radius: 5px;
-    font-size: 15px;
-    letter-spacing: 1px;
-    cursor: pointer;
-}
-button:hover{
-    background-color: #f61f1f;
-}
 
 .form input{
     margin: 5px 0;
@@ -96,6 +82,28 @@ input[type="button"]{
     width: 100px;
 }
 
+/* Formulario End */
+
+/* Boton Delete Start*/
+button{
+    border: none;
+    background-color: #e32b2b;
+    padding: 5px;
+    width: 90px;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #f61f1f;
+}
+
+/* Boton Delete End */
+
+
+/* Contenedor de eventos registrados */
 #eventsContainer{
     display: flex;
     flex-direction: column;
