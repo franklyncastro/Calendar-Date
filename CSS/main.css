@@ -46,6 +46,7 @@ h1{
     margin: 0 auto;
     border-radius: 9px;
     color: #1860a8;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     
 }
 
@@ -113,6 +114,7 @@ button:hover{
     width: 700px;
     margin: 100px auto;
     gap: 5px;
+    
    
 }
 
